@@ -12,6 +12,7 @@ namespace LinqQuiz.Tests
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public decimal Age { get; set; }
+        public int ID { get; set; }
     }
 
     public class Family : IFamily
